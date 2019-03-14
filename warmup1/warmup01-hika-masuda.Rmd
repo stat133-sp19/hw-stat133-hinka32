@@ -1,0 +1,78 @@
+---
+title: "warmup01"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Kazuda Xiono
+
+A famous quote by Kazuda Xiono
+
+> "In my mind, that's what I was-Kazuda Xiono, the best starfighter pilot in the galaxy."
+
+Description | Value
+--- | ---
+Species | Human
+Gender | Male
+Eye Color | Brown
+Hair Color | Black
+
+![Kazuda Xiono](https://vignette.wikia.nocookie.net/starwars/images/a/a3/Kazuda.jpg/revision/latest?cb=20180830051228)
+
+
+------
+
+## Cabbage and Sausage Casserole
+![cabbage and sausage casserole](https://farm2.staticflickr.com/1706/24375331702_63bac31ebb_k.jpg)
+
+Ingredients
+
+* Salt  
+* 2 tablespoons unsalted butter  
+* 1 pound fresh sweet Italian pork sausages or bulk sausage meat  
+* 1 large green or Savoy cabbage (2 pounds), cored and thickly shredded  
+* Freshly ground black pepper  
+* Crusty bread and coarse mustard, for serving  
+
+Necessary Kitchen Tools
+
+* 9-by-13-by-2-inch baking dish
+
+#### Recipe
+
+Heat oven to 300 degrees. Bring a large pot of salted water to a boil and butter a 9-by-13-by-2-inch baking dish. If using sausages, remove casings and discard them.
+
+Place cabbage in boiling water, cover, and let water come back to the boil. Uncover and boil for 3 minutes. Drain cabbage in a colander and run cold water over it to stop cooking. Drain well.
+
+Put about 1/3 of the cabbage in buttered dish and cover with 1/2 the meat. Sprinkle with salt and pepper and dot with butter. Repeat, ending with a final layer of cabbage, and dot top with butter.
+
+Cover dish tightly with a layer of parchment paper (commenters who skipped the parchment said that their vegetables discolored against the foil), then top with a lid or a layer of aluminum foil. Cook for about 2 1/2 hours, until cabbage is soft and sweet, and top is lightly browned. After 2 hours, uncover the dish; if there is a lot of liquid in the bottom, leave uncovered for the rest of the cooking time. If not, re-cover and finish cooking. In our case, there was not a lot of liquid but I hoped to get a little color on the top so left it uncovered for the remaining time.
+
+#### Other info
+
+Even though this recipe is great all year, it's especially great in the cold months of winter when it will warm you up!
+Different aromatics can be added to the casserole for extra flavor and aroma such as tomatoes, bacon bits, and herbs.
+
+------
+
+
+###Definition
+___
+The **Euclidean distance** between points **p** and **q** is the length of the line segment connecting them (pq***).
+
+In Cartesian coordinates, if **p** = (_p<sub>1</sub>_, _p<sub>2</sub>_,..., _p<sub>n</sub>_) and **q** = (_q<sub>1</sub>_, _q<sub>2</sub>_,..., _q<sub>n</sub>_) are two points in Euclidean _n_-space, then the distance (d) from **p** to **q**, or from **q** to **p** is given by the Pythagorean formula:
+\usepackage{amsmath}
+\begin{align}
+d(\mathbf{p},\mathbf{q})=d(\mathbf{q},\mathbf{p}) &=\sqrt{(q_1 - p_1)^2 + (q_2 - p_2)^2+\cdots+(q_n-p_n)^2} \\
+&=\sqrt{\sum_{i=1}^{n}(q_i - p_i)^2}.
+\end{align}
+
+The position of a point in a Euclidean _n_-space is a Euclidean vector. So, **p** and **q** may be represented as Euclidean vectors, starting from the origin of the space (initial point) with their tips (terminal points) ending at the two points. The **Euclidean norm**, or **Euclidean length**, or **magnitude** of a vector measures the length of the vector:
+\begin{align}
+|\mathbf{p}\|=\sqrt{p_1^2 + p_2^2 + \cdots + p_n^2}=\sqrt{\mathbf{p}\cdot\mathbf{p}},
+\end{align}
+
+where the last expression involves the dot product.
